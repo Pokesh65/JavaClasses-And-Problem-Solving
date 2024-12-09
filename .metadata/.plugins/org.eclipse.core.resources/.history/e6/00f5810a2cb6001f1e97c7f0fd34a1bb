@@ -17,6 +17,7 @@ public class LogicMath {
 			
 			System.out.print(va+",");
 			int res1=(int)Math.floor((va*2)+2);
+			System.out.println(res1);
 			va=res1;
 			
 		}
