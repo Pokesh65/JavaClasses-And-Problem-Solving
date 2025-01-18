@@ -21,6 +21,8 @@ package InstaConcepts;
 class counter {
 
 	int count;
+	
+	
 
   synchronized	void Increase() {
 	  
@@ -28,7 +30,12 @@ class counter {
 //	  same methods at same time 
 
 		count++; //count=count+1
+		
 	}
+  
+  
+  
+  
 }
 
 public class Methods6_Synchronized {
@@ -69,6 +76,8 @@ public class Methods6_Synchronized {
 		
 		
 		System.out.println("count : " + c.count);
+		
+		
 
 	}
 

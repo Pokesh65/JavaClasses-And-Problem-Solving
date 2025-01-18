@@ -30,6 +30,7 @@ public class Strings5 {
 //		Append methods will append value after the previous String value
 		SB.append(" Pokesh");
 		System.out.println("Append : "+SB);
+	
 		
 //Insert into String builder .insert()
 //		insert methods will insert the value with the index value where we wants to insert
@@ -124,6 +125,9 @@ public class Strings5 {
 		String Slt=strst.strip();
 		System.out.println(Slt);
 		
+		strst.indent(2);
+		System.out.println(strst);
+		
 //Replace Characters .replace()
 //		it will replace character with what we give
 		String rpc=strst.replace("o","a");
@@ -155,7 +159,7 @@ public class Strings5 {
 //Join String .join()
 //		String Ss="Welcome to Java Class buddy";
 //		join method join the array value and convert them into String value here
-		String js=Ss.join(" + ",Spart);
+		String js=String.join(" + ",Spart);
 		System.out.println(js);
 		
 //Check If The String Starts With .startsWith()
@@ -203,6 +207,8 @@ public class Strings5 {
 //		it will create a new String from char array we created above
 		String strcfa=new String(cta);
 		System.out.println("Create String From Char Array : "+strcfa);
+
+		
 		
 //Check If String Is Empyt Here .isEmpty()
 //		in isEmpty it will Consider Empty String as a String value here
@@ -241,6 +247,7 @@ public class Strings5 {
         String str2
             = String.format("My answer is %.8f", 47.6573484840304304);
         System.out.println(str2);
+        
 //
 //        // Here answer is supposed to be %15.8f" and
 //        // "47.65734000" there are 15 spaces

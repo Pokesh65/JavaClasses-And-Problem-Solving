@@ -13,8 +13,11 @@ public class BasicSyntaxAndDataType {
 //		Formatted Print
 		double ac=3.122344;
 		System.out.printf("Hii %.2f",ac);
-		System.out.printf("Hello %d",638353);
+		System.out.println("\n");
+		System.out.printf("Hello % 4d",638353);
+		System.out.println("\n");
 		System.out.printf("Gokul %s","kaka is couple");
+	
 		System.out.println("\n");
 		
 //		constant Declaration
@@ -72,18 +75,18 @@ public class BasicSyntaxAndDataType {
 		    
 //		Octal literal
 		    System.out.println("\nOctal literal");
-		    int octal=013;
+		    int octal=014;
 		    System.out.println("Octal :"+octal);
 		
 //		hexadecimal literal
 		    System.out.println("\nhexadecimal literal");
 		    // Digits 10 to 15 are represented by a to f (A to F) in Hexadecimal
-		    int hex=0x123 ;
+		    int hex=0xA;
 		    System.out.println("Hexa :"+hex);
 		    
 //		Scientific Notation
 		    System.out.println("\nScientific Notation");
-		    double sci=1.23231e2;
+		    double sci=1.23231e3;
 		    System.out.println("Scientific :"+sci);
 
 	}	

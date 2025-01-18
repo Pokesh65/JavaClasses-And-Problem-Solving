@@ -13,7 +13,7 @@ package InstaConcepts;
 
 
 // Class Creation
-class Car{
+ class Car{
 	  static long f=220330022223333l;
 	  int Price=40000;
 	  String valu="50";
@@ -44,7 +44,6 @@ class ForConst{
 //	Parameterized Constructor
 	
 	public ForConst(String name) {
-		 
 		// TODO Auto-generated constructor stub
 		System.out.println("Parameterized Constructor from Constructor Class "+name);
 	}
@@ -56,7 +55,7 @@ public class Oops7_1 {
 			//	The instance variable is declared inside the class but not inside the methods
 		 int instvari=1000;
 		 	// it can't to be reinitialize the variable in instance variable
-		// instvari=50;
+//		 instvari=50;
 		 	// but we can reinitialize inside the methods
 		 public void methods(){
 			 instvari=500;
@@ -139,6 +138,7 @@ public class Oops7_1 {
 // Constructor 
 		// A Constructor can be called when declaring Object and class reference
 		ForConst Fc=new ForConst();
+		
 		
 //	Parameterized Constructor
 //		we need pass argument while creating class reference in Parameterized Constructor

@@ -18,7 +18,7 @@ class multiple {
 	}
 }
 
-//	Custom Exception
+// Custom Exception
 // we create a manual exception in java for our purpose of code execution
 class AgeNotVAlidException extends Exception {
 
@@ -52,7 +52,7 @@ class Test {
 class chained {
 	static void divide1(int a, int b) {
 		if (b == 0) {
-			ArithmeticException ae = new ArithmeticException("Exception Cant't Div zero");
+			ArithmeticException ae = new ArithmeticException("Exception Can't Div zero");
 			// this initCause methods will be get by getCasue methods
 			// this methods will be pass the message to getCause
 			ae.initCause(new IOException("Initial Cause, our input b is "+b+" zero"));
@@ -175,14 +175,13 @@ public class ExceptionHandling8 {
 		
 		// we don't need to use catch and finally after try in try with resources
 		// it will closed automatically 
-		
-		int num=0;
+//		
+//		int num=0;
 //		try(BufferedReader br=new BufferedReader(new InputStreamReader(System.in)) ) {
 //		//	once the try get over this resource will closed automatically
 //			System.out.println("Enter The Number Over Here :");
 //			num=Integer.parseInt(br.readLine());
 //			System.out.println("The Number You Entered : "+num);
-//			
 //			
 //		}
 
@@ -223,8 +222,8 @@ public class ExceptionHandling8 {
 //	Throws 
 		System.out.println("\n....Throws...");
 		// In Java, the throws keyword is used in a method's
-		// signature to declare that the method can throw
-		// one or more checked exceptions. It indicates to the
+		// signature to declare that the method can throw 
+		// one or more checked exceptions. It indicates to the 
 		// caller that they need to handle or further propagate
 		// these exceptions.
 
@@ -269,7 +268,6 @@ public class ExceptionHandling8 {
 			// the getmessage will get the error message of the exception
 			// whatever the message in exception the getMessage will get it for
 			// us
-
 			System.out.println(e.getMessage());
 		}
 

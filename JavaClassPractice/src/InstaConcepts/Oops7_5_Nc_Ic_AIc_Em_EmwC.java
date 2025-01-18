@@ -219,13 +219,14 @@ public class Oops7_5_Nc_Ic_AIc_Em_EmwC {
 		}
 		
 //	Enum Constructor
-		Size PizzaSize=Size.LARGE;
+		Size PizzaSize=Size.SMALL;
 		PizzaSize.GetSize();
 
 		//System.out.println(PizzaSize.GetSize());
 		//you can use this methods to print value when you give return type string
 		///inside the GetSize Method
 		
+
 
 		
 	}

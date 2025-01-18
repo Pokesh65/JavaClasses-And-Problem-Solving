@@ -31,6 +31,8 @@ abstract class AbsOne{
 	abstract void absmethod(String name,int age);
 	
 	
+	
+	
 }
 
 

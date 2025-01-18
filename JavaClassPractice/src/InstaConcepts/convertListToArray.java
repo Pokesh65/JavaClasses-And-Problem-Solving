@@ -1,6 +1,7 @@
 package InstaConcepts;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class convertListToArray {
@@ -20,11 +21,13 @@ public class convertListToArray {
 		
 		
 		String ar[]=newList.toArray(new String[0]);
-		
 		for(String a:ar){
 			System.out.println(a);
 		}
 		
+		String as="";	
+		String St=as.join(" ", ar);
+		System.out.println(St);
 
 	}
 

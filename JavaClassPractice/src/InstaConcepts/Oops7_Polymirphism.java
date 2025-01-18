@@ -72,7 +72,7 @@ public class Oops7_Polymirphism {
 		bens car=new bens();
 		bus bus=new bus();
 		train train=new train();
-		Vehicle1[] travel= {bike,car,bus,train};
+		Vehicle1 []travel= {bike,car,bus,train};
 		
 		bike.go();
 		car.go();

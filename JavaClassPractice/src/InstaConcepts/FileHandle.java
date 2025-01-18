@@ -10,11 +10,15 @@ public class FileHandle {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		
+
 		File f=new File("text.CSV");
 //		f.setReadOnly();	//one time dha write panalam
 //		f.setWritable(true);
 		System.out.println(f.getAbsolutePath()); //it will show the file path
 		System.out.println(f.getPath());
+		
+		
 		
 		if(f.createNewFile()) {
 			System.out.println("file created");
@@ -30,6 +34,8 @@ public class FileHandle {
 		fw.append("Pokesh kumar");
 		fw.close(); //we need to use close() every time we complete writing
 		
+		
+		
 		// Get Whole Files
 		FileReader fr=new FileReader(f);
 		Scanner sc=new Scanner(fr);
@@ -44,10 +50,20 @@ public class FileHandle {
 		while(sw.hasNext()) {
 			System.out.println(sw.next());
 		}
-		 
+		
+		
+		
+		 f.delete();
 		if(f.delete()){
 			System.out.println("Deleted");
 		}
+
+		
+		
+				
+		
+		
+		
 
 	}
 

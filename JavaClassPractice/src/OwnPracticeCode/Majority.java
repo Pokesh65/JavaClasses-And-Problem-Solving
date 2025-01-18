@@ -18,7 +18,7 @@ public class Majority {
 			}else {
 				count--;
 			}
-		}System.out.println("The Majority Elements Is :"+cand);
+		}System.out.println("The Majority Elements Is :"+cand +count);
 
 	}
 

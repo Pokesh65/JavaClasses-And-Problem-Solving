@@ -67,6 +67,7 @@ package InstaConcepts;
 		//	all the variable inside interface must be static or final
 		int age =40;
 		static String name="Pokesh";
+		final int dv=100;
 	}
 	
 	//	To connect interface to interface we use extends 
@@ -78,6 +79,9 @@ package InstaConcepts;
 		static void sgooo() {	
 			System.out.println("Im Gooooinggggg In Interfaace 2");
 	}
+		default void hello(){
+			System.out.println("Im From interface2");
+		}
 		
 	}
 	

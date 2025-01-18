@@ -1,6 +1,7 @@
 package InstaConcepts;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
@@ -175,7 +176,7 @@ public class Collection9_methods {
 		boolean isDisjoin= Collections.disjoint(li, ll);
 		System.out.println(isDisjoin); //true
 		
-		List<Integer> ll1=new LinkedList<Integer>();
+		LinkedList<Integer> ll1=new LinkedList<Integer>();
 		ll1.add(98);
 		ll1.add(20);
 		ll1.add(3);
@@ -195,6 +196,9 @@ public class Collection9_methods {
 		System.out.println(li);
 		unmlist.add("senthil");  //java.util.Collections$UnmodifiableCollection
 		System.out.println(unmlist);
+		
+		LinkedList<Integer> l=new LinkedList<Integer>();
+		
 	}
 
 }

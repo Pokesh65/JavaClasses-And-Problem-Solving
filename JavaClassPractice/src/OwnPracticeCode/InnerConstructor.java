@@ -1,5 +1,8 @@
 package OwnPracticeCode;
 
+abstract class ab{
+	abstract void gg();
+}
 public class InnerConstructor {
 	
 	InnerConstructor(){
@@ -15,7 +18,13 @@ public class InnerConstructor {
 //		constructor it will call when it's object created
 		InnerConstructor cs=new InnerConstructor();
 		
-		
+		ab a=new ab() {
+			@Override
+			void gg() {
+				// TODO Auto-generated method stub
+				
+			}
+		};
 
 	}
 

@@ -190,6 +190,7 @@ public class Arrays4 {
 		
 //Convert Array To List 
 		System.out.println("Convert Array To List");
+		
 		Integer cal[]= {4,5,2,1,4,6,8,9,10};
 		List<Integer> lis=Arrays.asList(cal);
 //		var lis=Arrays.asList(cal);
@@ -262,6 +263,10 @@ public class Arrays4 {
 		System.out.println("Average Of Array Elements");
 		double avg=Arrays.stream(psa).average().getAsDouble();
 		System.out.println(avg);
+		
+	Integer count=Arrays.stream(psa).reduce(0,(e,i)->e+i);
+	System.out.println(count);
+//		Integer add1=a.stream().reduce(0,(e,i)->e+i);
 		
 		
 		   

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;OwnPracticeCode.AndOperator&apos; to &apos;AnagramWordPattern&apos;&#x0D;&#x0A;- Original project: &apos;JavaClassPractice&apos;&#x0D;&#x0A;- Original element: &apos;OwnPracticeCode.AndOperator&apos;&#x0D;&#x0A;- Renamed element: &apos;OwnPracticeCode.AnagramWordPattern&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AndOperator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;OwnPracticeCode{AndOperator.java[AndOperator" matchStrategy="1" name="AnagramWordPattern" qualified="false" references="true" similarDeclarations="false" stamp="1736317580948" textual="false" version="1.0"/>
+</session>
